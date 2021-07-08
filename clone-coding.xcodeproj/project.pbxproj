@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		EA129BCA26973312000EC7DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA129BC926973312000EC7DE /* AppDelegate.swift */; };
 		EA129BCC26973312000EC7DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA129BCB26973312000EC7DE /* SceneDelegate.swift */; };
-		EA129BCE26973312000EC7DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA129BCD26973312000EC7DE /* ViewController.swift */; };
+		EA129BCE26973312000EC7DE /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA129BCD26973312000EC7DE /* MyViewController.swift */; };
 		EA129BD126973312000EC7DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA129BCF26973312000EC7DE /* Main.storyboard */; };
 		EA129BD326973313000EC7DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA129BD226973313000EC7DE /* Assets.xcassets */; };
 		EA129BD626973313000EC7DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA129BD426973313000EC7DE /* LaunchScreen.storyboard */; };
 		EA129BE126973313000EC7DE /* clone_codingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA129BE026973313000EC7DE /* clone_codingTests.swift */; };
 		EA129BEC26973313000EC7DE /* clone_codingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA129BEB26973313000EC7DE /* clone_codingUITests.swift */; };
+		EA129BFA26973BFC000EC7DE /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA129BF926973BFB000EC7DE /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		EA129BC626973312000EC7DE /* clone-coding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clone-coding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA129BC926973312000EC7DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA129BCB26973312000EC7DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EA129BCD26973312000EC7DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA129BCD26973312000EC7DE /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		EA129BD026973312000EC7DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA129BD226973313000EC7DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA129BD526973313000EC7DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		EA129BE726973313000EC7DE /* clone-codingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "clone-codingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA129BEB26973313000EC7DE /* clone_codingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clone_codingUITests.swift; sourceTree = "<group>"; };
 		EA129BED26973313000EC7DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA129BF926973BFB000EC7DE /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +103,8 @@
 			children = (
 				EA129BC926973312000EC7DE /* AppDelegate.swift */,
 				EA129BCB26973312000EC7DE /* SceneDelegate.swift */,
-				EA129BCD26973312000EC7DE /* ViewController.swift */,
+				EA129BF926973BFB000EC7DE /* MainTabBarController.swift */,
+				EA129BCD26973312000EC7DE /* MyViewController.swift */,
 				EA129BCF26973312000EC7DE /* Main.storyboard */,
 				EA129BD226973313000EC7DE /* Assets.xcassets */,
 				EA129BD426973313000EC7DE /* LaunchScreen.storyboard */,
@@ -258,8 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA129BCE26973312000EC7DE /* ViewController.swift in Sources */,
+				EA129BCE26973312000EC7DE /* MyViewController.swift in Sources */,
 				EA129BCA26973312000EC7DE /* AppDelegate.swift in Sources */,
+				EA129BFA26973BFC000EC7DE /* MainTabBarController.swift in Sources */,
 				EA129BCC26973312000EC7DE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
