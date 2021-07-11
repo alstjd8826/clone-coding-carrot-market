@@ -40,17 +40,23 @@ class ScrollView: UIViewController {
         // 메인 스크롤뷰 그리기
         // 디바이스 메인 기준으로 포인트를 잡아줘야 한다.
         m_Scrollview.frame = CGRect(x: 0, y: 0, width: screenWidth, height: screenHeight )
-        m_Scrollview.backgroundColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
+        m_Scrollview.backgroundColor = #colorLiteral(red: 0.9175565839, green: 0.9177104831, blue: 0.9175363183, alpha: 1)
         
         s_View_0.frame = CGRect( x: 0, y: 0, width: screenWidth, height: 1310)
-        s_View_0.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
-         
+        s_View_0.backgroundColor = #colorLiteral(red: 0.9175565839, green: 0.9177104831, blue: 0.9175363183, alpha: 1)
+        
         // 서브 스크롤에 넣을 뷰 그리기
         ss_listView_0.frame = CGRect(x: 0, y: 0, width: screenWidth, height: 300 )
         ss_listView_1.frame = CGRect(x: 0, y: 310, width: screenWidth, height: 300 )
         ss_listView_2.frame = CGRect(x: 0, y: 310+310, width: screenWidth, height: 180 )
         ss_listView_3.frame = CGRect(x: 0, y: 310+310+190, width: screenWidth, height: 180 )
         ss_listView_4.frame = CGRect(x: 0, y: 310+310+190+190, width: screenWidth, height: 300 )
+        
+        ss_listView_0.backgroundColor = #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)
+        ss_listView_1.backgroundColor = #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)
+        ss_listView_2.backgroundColor = #colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1)
+        ss_listView_3.backgroundColor = #colorLiteral(red: 0.9568627477, green: 0.6588235497, blue: 0.5450980663, alpha: 1)
+        ss_listView_4.backgroundColor = #colorLiteral(red: 0.9764705896, green: 0.850980401, blue: 0.5490196347, alpha: 1)
          
         // 서브 스크롤에 들어가는 뷰에 넣을 텍스트.
         sss_listText_0.frame = CGRect(x: 10, y: 10, width: 200, height: 50)

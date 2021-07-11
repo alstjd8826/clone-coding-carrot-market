@@ -23,11 +23,22 @@ class MainTabBarController: UITabBarController {
         
         self.viewControllers = [firstNC, secondNC, thirdNC, forthNC, fifthNC]
         
-        let firstTabBarItem = UITabBarItem(title: "첫번째", image: UIImage(systemName:"airplayaudio"), tag: 0)
-        let secondTabBarItem = UITabBarItem(title: "두번째", image: UIImage(systemName:"airplayvideo"), tag: 1)
-        let thirdTabBarItem = UITabBarItem(title: "세번째", image: UIImage(systemName:"arrow.clockwise.icloud.fill"), tag: 2)
-        let forthTabBarItem = UITabBarItem(title: "네번째", image: UIImage(systemName:"arrow.down.left.video.fill"), tag: 3)
-        let fifthTabBarItem = UITabBarItem(title: "다섯번째", image: UIImage(systemName:"safari.fill"), tag: 4)
+        let firstTabBarItem = UITabBarItem(title: "홈", image: UIImage(systemName:"airplayaudio"), tag: 0)
+        let secondTabBarItem = UITabBarItem(title: "동네생활", image: UIImage(systemName:"airplayvideo"), tag: 1)
+        let thirdTabBarItem = UITabBarItem(title: "내 근처", image: UIImage(systemName:"arrow.clockwise.icloud.fill"), tag: 2)
+        let forthTabBarItem = UITabBarItem(title: "채팅", image: UIImage(systemName:"arrow.down.left.video.fill"), tag: 3)
+        let fifthTabBarItem = UITabBarItem(title: "나의 당근", image: UIImage(systemName:"safari.fill"), tag: 4)
+        
+        // 네비게이션 바 흰색
+        UINavigationBar.appearance().barTintColor = .white
+        
+        
+        // 바텀탭바 흰색, 아이콘 검은색
+        tabBar.barTintColor = .white
+        tabBar.tintColor = .black   
+        
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.black], for: .normal)
+        
         
         firstNC.tabBarItem = firstTabBarItem
         secondNC.tabBarItem = secondTabBarItem
